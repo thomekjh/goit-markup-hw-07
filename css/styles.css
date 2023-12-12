@@ -44,20 +44,20 @@ span {
   list-style: none;
 }
 
-.link2 {
+.link-two {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--secound-color);
   text-decoration: none;
 }
 
-.link2:hover {
+.link-two:hover {
   color: #404bbf;
 }
 
-.link2:focus {
+.link-two:focus {
   color: #404bbf;
 }
 
@@ -68,7 +68,7 @@ span {
 .contact {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--tirdth-color);
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ span {
   color: #404bbf;
 }
 
-.section1 {
+.unit {
   background-color: var(--secound-color);
 }
 
@@ -93,7 +93,7 @@ span {
   color: #ffffff;
 }
 
-.heading2 {
+.headline {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -132,12 +132,12 @@ button {
   cursor: pointer;
 }
 
-.button1:hover {
+.button-first:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.button1:focus {
+.button-first:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -157,11 +157,11 @@ button {
   color: var(--tirdth-color);
 }
 
-.header-list2 {
+.header-list-two {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secound-color);
 }
@@ -174,12 +174,20 @@ button {
   background-color: var(--secound-color);
 }
 
-.span {
+.bay {
+  color: var(--secound-color);
+}
+
+span {
   color: #f4f4fd;
 }
 
-.paragraph2 {
+.topic {
   line-height: 1.5;
   color: var(--fifth-color);
   letter-spacing: 0.02em;
+}
+
+.cast {
+  background-color: #ffffff;
 }
