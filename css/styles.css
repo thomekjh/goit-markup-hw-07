@@ -24,15 +24,15 @@ body {
   text-transform: uppercase;
 }
 
-.connect {
+.link {
   text-decoration: none;
 }
 
-.connect:hover {
+.link:hover {
   color: #404bbf;
 }
 
-.connect:focus {
+.link:focus {
   color: #404bbf;
 }
 
@@ -44,7 +44,7 @@ span {
   list-style: none;
 }
 
-.connect-two {
+.link-two {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,11 +53,11 @@ span {
   text-decoration: none;
 }
 
-.connect-two:hover {
+.link-two:hover {
   color: #404bbf;
 }
 
-.connect-two:focus {
+.link-two:focus {
   color: #404bbf;
 }
 
