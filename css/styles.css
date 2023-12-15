@@ -8,6 +8,11 @@
   --seventh-color: #e7e9fc;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
