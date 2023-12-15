@@ -5,6 +5,11 @@
   --fourth-color: #ffffff;
   --fifth-color: #f4f4fd;
   --sixth-color: #404bbf;
+  --seventh-color: #e7e9fc;
+}
+
+img {
+  display: block;
 }
 
 .header-cointainer-all {
@@ -44,6 +49,157 @@
   display: flex;
   gap: 40px;
   font-style: normal;
+}
+
+.section-first-container {
+  padding: 188px 0;
+}
+
+.section-first-heading {
+  max-width: 496px;
+}
+
+.section-first-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-color: var(--first-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section-second-container {
+  padding: 120px 0;
+}
+
+.section-second-heading-h2 {
+  visibility: hidden;
+}
+
+.section-second-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-second-point {
+  width: calc((100% - 72px) / 4);
+}
+
+.section-second-heading-h3 {
+  margin-bottom: 8px;
+}
+
+.section-third-container {
+  padding-bottom: 120px;
+}
+
+.section-third-heading-h2 {
+  margin-bottom: 72px;
+}
+
+.section-third-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-third-point {
+  width: calc((100% - 48px) / 3);
+}
+
+.section-fourth-container {
+  padding: 120px 0;
+}
+
+.section-fourth-heading-h2 {
+  margin-bottom: 72px;
+}
+
+.section-fourth-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-fourth-point {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section-fourth-employee {
+  padding: 32px 16px;
+}
+
+.section-fourth-heading-h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.section-fourth-paragraph {
+  text-align: center;
+}
+
+.footer-container {
+  padding: 100px 0;
+}
+
+.footer-container-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-container-topic {
+  max-width: 264px;
+}
+
+.section-portfolio-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.section-portfolio-heading-h1 {
+  visibility: hidden;
+}
+
+.section-portfolio-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.section-portfolio-button {
+  padding: 12px 24px;
+  border: 1px solid var(--seventh-color);
+  border-radius: 4px;
+}
+
+.section-portfolio-button:hover {
+  border: 1px solid transparent;
+}
+
+.section-portfolio-button:focus {
+  border: 1px solid transparent;
+}
+
+.section-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.section-portfolio-point {
+  width: calc((100% - 48px) / 3);
+}
+
+.section-portfolio-point-name {
+  padding: 32px 16px;
+  border: 1px solid var(--seventh-color);
+  border-top: none;
+}
+
+.section-portfolio-heading-h2 {
+  margin-bottom: 8px;
 }
 
 body {
