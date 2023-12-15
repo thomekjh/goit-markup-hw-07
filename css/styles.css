@@ -83,9 +83,6 @@ img {
   padding: 120px 0;
 }
 
-.section-second-heading-h-two {
-}
-
 .section-second-list {
   display: flex;
   gap: 24px;
@@ -163,10 +160,6 @@ img {
 .section-portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.section-portfolio-heading-h-one {
-  visibility: hidden;
 }
 
 .section-portfolio-menu-list {
