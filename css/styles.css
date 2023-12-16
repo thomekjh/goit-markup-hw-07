@@ -36,6 +36,7 @@ img {
 
 .header-cointainer-first {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -60,6 +61,7 @@ img {
 }
 
 .menu-cointainer-link {
+  display: inline-block;
   padding: 24px 0;
 }
 
@@ -71,6 +73,12 @@ img {
 
 .section-first-container {
   padding: 188px 0;
+}
+
+.section-first-container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-first-heading {
@@ -309,7 +317,7 @@ span {
   color: var(--secound-color);
 }
 
-button {
+.btn {
   background-color: var(--first-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -320,11 +328,11 @@ button {
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   background-color: var(--sixth-color);
 }
 
-.button:focus {
+.btn:focus {
   background-color: var(--sixth-color);
 }
 
@@ -339,11 +347,7 @@ button {
   cursor: pointer;
 }
 
-.button-first:hover {
-  color: var(--fourth-color);
-  background-color: var(--sixth-color);
-}
-
+.button-first:hover,
 .button-first:focus {
   color: var(--fourth-color);
   background-color: var(--sixth-color);
