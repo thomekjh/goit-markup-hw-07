@@ -6,6 +6,7 @@
   --fifth-color: #f4f4fd;
   --sixth-color: #404bbf;
   --seventh-color: #e7e9fc;
+  --eight-color: #8e8f99;
 }
 
 * {
@@ -157,6 +158,8 @@ img {
 .section-fourth-point {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-fourth-employee {
@@ -363,6 +366,8 @@ span {
 .button-first:focus {
   color: var(--fourth-color);
   background-color: var(--sixth-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .header-list {
@@ -412,4 +417,115 @@ span {
 
 .cast {
   background-color: var(--fourth-color);
+}
+
+.second-container-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--fifth-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.second-container-icons svg {
+  width: 64px;
+  height: 64px;
+}
+
+.section-fourth-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.section-fourth-icons-list {
+  width: 40px;
+  height: 40px;
+}
+
+.section-fourth-icons-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-fourth-icons-link:hover,
+.section-fourth-icons-link:focus {
+  background-color: var(--sixth-color);
+}
+
+.section-fourth-icons-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.section-fourth-icons-link-svg {
+  fill: var(--fifth-color);
+}
+
+.section-fifth-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-fifth-heading-h-two {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--secound-color);
+  margin-bottom: 72px;
+}
+
+.section-fifth-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.section-fifth-icons-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.section-fifth-icons-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--eight-color);
+}
+
+.section-fifth-icons-link:hover {
+  border-color: var(--sixth-color);
+  color: var(--sixth-color);
+}
+.section-fifth-icons-link:focus {
+  border-color: var(--sixth-color);
+  background-color: var(--sixth-color);
+}
+
+.section-fifth-icons-link svg {
+  width: 104px;
+  height: 56px;
+}
+
+.section-fifth-icons-link-svg {
+  fill: currentColor;
+}
+
+.section-portfolio-link {
+  display: block;
+}
+
+.section-portfolio-link:hover,
+.section-portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
