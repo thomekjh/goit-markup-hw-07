@@ -439,6 +439,7 @@ span {
 .section-fourth-icons-list {
   width: 40px;
   height: 40px;
+  list-style: none;
 }
 
 .section-fourth-icons-link {
@@ -483,6 +484,7 @@ span {
 .section-fifth-icons-list {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  list-style: none;
 }
 
 .section-fifth-icons-link {
@@ -545,6 +547,7 @@ span {
 .footer-container-icons-list {
   width: 40px;
   height: 40px;
+  list-style: none;
 }
 
 .footer-container-icons-list-link {
