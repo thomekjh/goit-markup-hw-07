@@ -431,8 +431,8 @@ span {
 }
 
 #second {
-  width: 64px;
-  height: 64px;
+  width: 64;
+  height: 64;
 }
 
 .section-fourth-icons {
@@ -462,8 +462,8 @@ span {
 }
 
 .section-fourth-icons-link svg {
-  width: 16px;
-  height: 16px;
+  width: 16;
+  height: 16;
 }
 
 .section-fourth-icons-link-svg {
@@ -537,11 +537,11 @@ span {
 }
 
 .footer-container-box {
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .footer-container-paragrapf {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
