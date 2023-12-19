@@ -451,14 +451,12 @@ span {
   justify-content: center;
 }
 
-.section-fourth-icons-link:hover,
-.section-fourth-icons-link:focus {
+.section-fourth-icons-link:hover {
   background-color: var(--sixth-color);
 }
 
-.section-fourth-icons-link svg {
-  width: 16;
-  height: 16;
+.section-fourth-icons-link:focus {
+  background-color: var(--sixth-color);
 }
 
 .section-fourth-icons-link-svg {
@@ -504,12 +502,7 @@ span {
 }
 .section-fifth-icons-link:focus {
   border-color: var(--sixth-color);
-  background-color: var(--sixth-color);
-}
-
-.section-fifth-icons-link svg {
-  width: 104px;
-  height: 56px;
+  color: var(--sixth-color);
 }
 
 .section-fifth-icons-link-svg {
@@ -569,12 +562,7 @@ span {
 }
 
 .footer-container-icons-list-link:focus {
-  background-color: #31d0aa;
-}
-
-footer svg {
-  width: 24px;
-  height: 24px;
+  background-color: var(--ninth-color);
 }
 
 .footer-container-icons-list-link-svg {
