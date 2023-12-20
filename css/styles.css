@@ -610,3 +610,40 @@ span {
   visibility: hidden;
   pointer-events: none;
 }
+
+.header-menu-pos-link {
+  position: relative;
+  color: var(--sixth-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-pos-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--sixth-color);
+  border-radius: 2px;
+}
+
+.header-contact-pos-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-first-button-pos {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-fourth-pos {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-fifth-pos {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-pos-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
