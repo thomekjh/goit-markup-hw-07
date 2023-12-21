@@ -679,8 +679,8 @@ span {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-portfolio-link-pos:hover::after,
-.section-portfolio-link-pos:focus::after {
+.section-portfolio-link-pos:hover .section-portfolio-card-paragraff,
+.section-portfolio-link-pos:focus .section-portfolio-card-paragraff {
   transform: translateY(0%);
 }
 
