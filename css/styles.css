@@ -730,10 +730,10 @@ span {
 }
 
 .footer-container-label {
-  gap: 24px;
 }
 
 .footer-container-input {
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
