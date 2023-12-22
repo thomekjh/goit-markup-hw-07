@@ -731,11 +731,11 @@ span {
 }
 
 .footer-container-label {
+  gap: 24px;
+  display: flex;
 }
 
 .footer-container-input {
-  gap: 24px;
-  display: flex;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
