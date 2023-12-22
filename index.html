@@ -672,7 +672,9 @@
           </svg>
         </button>
 
-        <p class="modal-window-paragraff"></p>
+        <p class="modal-window-paragraff">
+          Leave your contacts and we will call you back
+        </p>
 
         <form>
           <div class="modal-window-form">
@@ -735,8 +737,41 @@
             <label class="modal-window-form-name" for="user-comment"
               >Comment</label
             >
-            <textarea></textarea>
+            <textarea
+              class="modal-window-form-comment-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
+
+          <div class="modal-window-form-checkbox">
+            <input
+              class="visually-hidden"
+              id="user-privacy"
+              name="user-privacy"
+              type="checkbox"
+              value="true"
+            />
+            <label class="modal-window-form-checkbox-label" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="modal-window-form-checkbox-span">
+                <svg
+                  class="modal-window-form-checkbox-svg"
+                  width="10"
+                  height="8"
+                >
+                  <use href=""></use>
+                </svg>
+
+                <a class="modal-window-form-checkbox-link" href=""
+                  >Privacy Policy</a
+                ></span
+              >
+            </label>
+          </div>
+
+          <button class="modal-window-form-btn">Send</button>
         </form>
       </div>
     </div>
