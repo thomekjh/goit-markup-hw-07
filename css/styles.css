@@ -728,14 +728,13 @@ span {
 
 .footer-container-form-sub {
   display: flex;
+  gap: 24px;
 }
 
 .footer-container-label {
 }
 
 .footer-container-input {
-  gap: 24px;
-  display: flex;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -769,7 +768,6 @@ input::placeholder {
   background-color: var(--first-color);
   border: none;
   border-radius: 4px;
-  margin-left: 25px;
 }
 
 .footer-container-svg {
