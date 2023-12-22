@@ -59,6 +59,10 @@ img {
   margin-right: 76px;
 }
 
+.logo-cointainer:hover {
+  text-decoration: underline;
+}
+
 .menu-cointainer {
   display: flex;
   gap: 40px;
@@ -67,6 +71,10 @@ img {
 .menu-cointainer-link {
   display: inline-block;
   padding: 24px 0;
+}
+
+.menu-cointainer-link:hover {
+  text-decoration: underline;
 }
 
 .address-cointainer {
