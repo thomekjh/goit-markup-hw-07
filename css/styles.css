@@ -59,10 +59,6 @@ img {
   margin-right: 76px;
 }
 
-.logo-cointainer:hover {
-  text-decoration: underline;
-}
-
 .menu-cointainer {
   display: flex;
   gap: 40px;
@@ -73,8 +69,11 @@ img {
   padding: 24px 0;
 }
 
-.menu-cointainer-link:hover {
-  text-decoration: underline;
+.menu-cointainer-link::after {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--OCEAN, --sixth-color);
 }
 
 .address-cointainer {
