@@ -907,3 +907,73 @@ input::placeholder {
   border: none;
   fill: var(--fifth-color);
 }
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header-cointainer-first {
+  display: none;
+}
+
+.mobile-menu-layout {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mobile-menu-layout button {
+  background-color: transparent;
+}
+
+.js-menu-cointainer {
+  display: none;
+}
+
+.js-menu-cointainer.is-open {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  flex-flow: column nowrap;
+}
+
+.mobile-nav-cointainer .menu-cointainer {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 24px;
+  gap: 20px;
+}
+
+.mobile-nav-cointainer .menu-cointainer .menu-cointainer-link::after {
+  display: none;
+}
+
+.mobile-menu-close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .header-cointainer-first {
+    display: flex;
+  }
+
+  .mobile-menu-layout {
+    display: none;
+  }
+}
+
+@media (min-width: 1158px) {
+}
