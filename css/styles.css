@@ -496,6 +496,7 @@ span {
 .section-fifth-icons {
   display: flex;
   justify-content: space-evenly;
+
   flex-wrap: wrap;
   gap: 24px;
 }
@@ -556,6 +557,7 @@ span {
   color: var(--fourth-color);
   margin-bottom: 16px;
   text-align: center;
+  margin-top: 80px;
 }
 
 .footer-container-icons {
@@ -731,6 +733,7 @@ span {
   letter-spacing: 0.02em;
   color: var(--fourth-color);
   text-align: center;
+  margin-top: 80px;
 }
 
 .footer-container-form-sub {
@@ -1098,9 +1101,21 @@ body {
 
   .footer-container-paragrapf {
     text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
+    margin-bottom: 16px;
   }
 
   .footer-container-form-paragraff {
     text-align: left;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
   }
 }
